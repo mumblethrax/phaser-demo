@@ -1,0 +1,25 @@
+{
+  "name": "phaser-demo",
+  "version": "1.0.0",
+  "description": "Scratchpad and demo for building a phaser game",
+  "homepage": "https://github.com/mumblethrax/phaser-demo#readme",
+  "bugs": {
+    "url": "https://github.com/mumblethrax/phaser-demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mumblethrax/phaser-demo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server && open-cli http://localhost:8080"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "open-cli": "^9.0.0"
+  }
+}
